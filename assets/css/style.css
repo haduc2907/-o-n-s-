@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background-image: url(/assets/images/images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.background{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background .button1{
+    cursor: pointer;
+    background-color: orange;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 3px white solid;
+}
+.background .button1:hover{
+    background-color: white;
+    border: 3px orange solid;
+    transition: all 0.6s;
+}
+.background .button2{
+    cursor: pointer;
+    background-color: orange;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 3px white solid;
+    margin-left: 20px;
+}
+.background .input{
+    padding: 20px 20px;
+    border-radius: 10px
+}
+.correct, .wrong, .error{
+    width: 400px;
+    height: 500px;
+    background-color: green;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+}
+.button3, .button4, .button5{
+    background-color: orange;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: 3px white solid;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+
+
+.none{
+    display: none;
+}
